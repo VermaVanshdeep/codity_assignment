@@ -1,0 +1,31 @@
+# Environment — NEVER commit
+.env
+*.env.local
+
+# Go
+backend/vendor/
+backend/*.out
+backend/api
+backend/worker
+backend/coverage.html
+backend/coverage.out
+backend/tmp/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
