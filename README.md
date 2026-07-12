@@ -284,17 +284,7 @@ docker compose up --build -d
 python3 seed.py
 ```
 
-**Access:**
-- Dashboard: http://localhost:3000
-- API: http://localhost:8080/api/v1
 
-**Test credentials:**
-```
-Email:    admin@example.com
-Password: password123
-```
-
----
 
 ## API Endpoints
 
